@@ -18,7 +18,7 @@ const Items = () => {
    const[count,setCount]=useState(0)
   
    useEffect(()=>{
-    fetch('/src/blog.json')
+    fetch('/blog.json')
     .then(res=>res.json())
     .then(data=>setItems(data));
     
