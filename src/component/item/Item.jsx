@@ -13,7 +13,7 @@ const Item = ({item,handleToBooked}) => {
     return (
 
        
-      <div className=" w-full lg:w-2/3">
+      <div className=" w-full lg:w-5/6 card-body bg-slate-300">
         <img className="w-full h-48 rounded-xl" src={recipe_image} alt="" />
         <h2 className=" flex justify-items-start text-xl font-bold">{recipe_name}</h2>
         <p className=" flex justify-items-start">{short_description}</p>

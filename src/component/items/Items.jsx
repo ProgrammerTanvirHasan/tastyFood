@@ -44,11 +44,11 @@ const handleToBooked = (item, recipe_id) => {
 };
 
     return (
-        <div>
+        <div >
             <h2 className="font-extrabold text-2xl mb-8">Our Recipes</h2>
             <p>we ensure all healthy food with test and we menaged authentic food.that you in our receipe, <br />everything has there. </p>
            <div className="lg:flex gap-2 mt-8">
-           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
            {
                 items.map(item=> <Item item={item} key={item.recipe_id}handleToBooked={handleToBooked}   ></Item>)
             }
